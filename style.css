@@ -10,5 +10,20 @@
 
 .team {
     background-color: #e7f1f8;
-    color: #000000;
+    color: #3c4761;
+}
+
+.skills {
+    background-color: #ffffff;
+    color: #3c4761;
+}
+
+.portfolio {
+    background-color: #ffdd99;
+    color: #393939;
+}
+
+.testimonials {
+    background-color: #d74680;
+    color: #ffffff;
 }
