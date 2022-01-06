@@ -1,6 +1,28 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
 .header {
-    background-color: #643a79;
+    background-color: #87509c;
     color: #ffffff;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.menu {
+    display: inline-block;
+}
+.menu__list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+}
+
+.menu__link {
+    text-decoration: none;
 }
 
 .services {
