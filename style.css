@@ -43,6 +43,7 @@ body {
 
 .menu__list-item {
     padding:5px;
+    letter-spacing: 1px;
 }
 
 .menu__list--active {
@@ -58,12 +59,14 @@ body {
 
 .header__button-decor {
     border: none;
+    border-radius: 5px;
     color: #ffffff;
     background-color: #eb7d4b;
     height: 50px;
     width: 250px;
     margin: 20px 0px 100px;
     box-shadow: 0 3px 0 0 rgba(200,106,64,36);
+    letter-spacing: 1px;
 }
 
 .services {
@@ -170,13 +173,8 @@ body {
 
 .skills__content {
     display: flex;
-    /*justify-content: center;*/
     justify-content: space-evenly;
     padding-bottom: 50px;
-}
-
-.diagram {
-    /*padding: 50px;*/
 }
 
 .diagram__title {
@@ -232,6 +230,22 @@ body {
     background-color: #ffffff;
 }
 
+.portfolio__example-text {
+    font-weight: bold;
+}
+
+.portfolio__button-decoration {
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #17c2a4;
+    height: 50px;
+    width: 250px;
+    margin: 20px 0px 100px;
+    box-shadow: 0 3px 0 0 #14a58c;
+    letter-spacing: 1px;
+}
+
 .testimonials {
     background-color: #d74680;
     color: #ffffff;
@@ -246,6 +260,47 @@ body {
     letter-spacing: 5px;
 }
 
+.testimonials__top-description {
+    font-size: 20px;
+    margin: 15px 0px 70px;
+}
+
+.testimonials__content-blocks {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.testimonials__person {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials__person-images {
+    padding: 20px;
+}
+
+.testimonials__text {
+    text-align: left;
+}
+
+.testimonials__text-quote {
+    font-style: italic;
+}
+
+.testimonials__text-name {
+    margin: 20px 0px 3px;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.testimonials__text-position {
+    color: #f0ab8f;
+    font-weight: bold;
+    margin: 0px;
+}
+
 .contact {
     background-color: #3c5499;
     color: #ffffff;
@@ -258,6 +313,68 @@ body {
     font-size: 30px;
     font-weight: 900;
     letter-spacing: 5px;
+}
+
+.contact__top-description {
+    font-size: 20px;
+    margin: 15px 0px 70px;
+}
+
+.contact__form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.contact__textarea {
+    /*display: flex;*/
+    justify-content: center;
+}
+
+.contact__form-input {
+    margin: 0px 10px;
+    display: block;
+    justify-content: space-evenly;
+    border: none;
+    border-radius: 3px;
+    background-color: #273a71;
+    width: 200px;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+    font-family: inherit;
+    line-height: 1.5;
+}
+
+.contact__form-textarea {
+    margin-bottom: 0.25rem;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color: #273a71;
+    height: 100px;
+    width: 400px;
+    padding: 10px;
+    resize: none;
+    font-family: inherit;
+    line-height: 1.5;
+}
+
+::placeholder {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.contact__button-decorate {
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #30bae7;
+    height: 50px;
+    width: 250px;
+    margin: 20px 0px 100px;
+    box-shadow: 0 3px 0 0 #299ec5;
+    letter-spacing: 1px;
 }
 
 .footer {
