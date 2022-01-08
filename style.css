@@ -1,5 +1,8 @@
 body {
     font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    /*width: 90%;*/
+    margin: auto;
 }
 
 .header {
@@ -7,22 +10,56 @@ body {
     color: #ffffff;
 }
 
-.logo {
-    display: inline-block;
+.header__top {
+    display: flex;
+    justify-content: space-between;
 }
 
-.menu {
-    display: inline-block;
+.header__content-description {
+    font-size: 30px;
 }
+
+.header__top-menu {
+    text-align: right;
+    margin-top: 40px;
+}
+
+.logo {
+    text-align: right;
+    margin-top: 40px;
+    padding-left: 50px;
+}
+
+
 .menu__list {
     list-style: none;
     display: flex;
     justify-content: flex-end;
     font-size: 16px;
+    line-height: normal;
+    margin: auto;
+    padding: 10px 50px;
+}
+
+.menu__list-item {
+    padding:5px;
+}
+
+.menu__link--active {
+    background-color: #643a79;
 }
 
 .menu__link {
     text-decoration: none;
+    color: inherit;
+}
+
+.header__button-decor {
+    border: none;
+    color: #ffffff;
+    background-color: #eb7d4b;
+    height: 50px;
+    width: 250px;
 }
 
 .services {
@@ -43,6 +80,7 @@ body {
 .portfolio {
     background-color: #ffdd99;
     color: #393939;
+
 }
 
 .testimonials {
